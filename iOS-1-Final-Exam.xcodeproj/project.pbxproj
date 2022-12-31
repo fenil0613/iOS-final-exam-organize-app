@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051FBEAE294E6B4800BBEE48 /* CalenderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051FBEAD294E6B4800BBEE48 /* CalenderCollectionViewCell.swift */; };
+		051FBEB0294E6EC800BBEE48 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051FBEAF294E6EC800BBEE48 /* CalendarHelper.swift */; };
 		054947B5294E059C005ED3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947B4294E059C005ED3CA /* AppDelegate.swift */; };
 		054947B7294E059C005ED3CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947B6294E059C005ED3CA /* SceneDelegate.swift */; };
-		054947B9294E059C005ED3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947B8294E059C005ED3CA /* ViewController.swift */; };
+		054947B9294E059C005ED3CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947B8294E059C005ED3CA /* LoginViewController.swift */; };
 		054947BC294E059C005ED3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054947BA294E059C005ED3CA /* Main.storyboard */; };
 		054947BE294E059C005ED3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054947BD294E059C005ED3CA /* Assets.xcassets */; };
 		054947C1294E059C005ED3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054947BF294E059C005ED3CA /* LaunchScreen.storyboard */; };
 		054947CC294E059C005ED3CA /* iOS_1_Final_ExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947CB294E059C005ED3CA /* iOS_1_Final_ExamTests.swift */; };
 		054947D6294E059C005ED3CA /* iOS_1_Final_ExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947D5294E059C005ED3CA /* iOS_1_Final_ExamUITests.swift */; };
 		054947D8294E059C005ED3CA /* iOS_1_Final_ExamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947D7294E059C005ED3CA /* iOS_1_Final_ExamUITestsLaunchTests.swift */; };
+		054947E5294E2129005ED3CA /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947E4294E2129005ED3CA /* SignupViewController.swift */; };
+		054947E7294E2ECB005ED3CA /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947E6294E2ECB005ED3CA /* ToDoViewController.swift */; };
+		054947E9294E2EE6005ED3CA /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947E8294E2EE6005ED3CA /* CalenderViewController.swift */; };
+		054947EB294E2EF5005ED3CA /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947EA294E2EF5005ED3CA /* FinanceViewController.swift */; };
+		054947ED294E2F04005ED3CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054947EC294E2F04005ED3CA /* SettingsViewController.swift */; };
+		05A0F33A294F7FB5009E32FA /* NewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F339294F7FB5009E32FA /* NewReminderViewController.swift */; };
+		05A0F33D294F8191009E32FA /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F33B294F8191009E32FA /* ReminderTableViewCell.swift */; };
+		05A0F33E294F8191009E32FA /* ReminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A0F33C294F8191009E32FA /* ReminderTableViewCell.xib */; };
+		05A0F340294F8B5C009E32FA /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F33F294F8B5C009E32FA /* Reminder.swift */; };
+		05A0F342294F968B009E32FA /* NewAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F341294F968B009E32FA /* NewAmountViewController.swift */; };
+		05A0F344294F974F009E32FA /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F343294F974F009E32FA /* Amount.swift */; };
+		05A0F347294F9857009E32FA /* FinanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0F345294F9857009E32FA /* FinanceTableViewCell.swift */; };
+		05A0F348294F9857009E32FA /* FinanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A0F346294F9857009E32FA /* FinanceTableViewCell.xib */; };
+		05A0F34A294FA995009E32FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05A0F349294FA995009E32FA /* GoogleService-Info.plist */; };
+		F981883DB1E82A2898E0093A /* Pods_iOS_1_Final_Exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA7A0D70AB9E7758440CC49 /* Pods_iOS_1_Final_Exam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051FBEAD294E6B4800BBEE48 /* CalenderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCollectionViewCell.swift; sourceTree = "<group>"; };
+		051FBEAF294E6EC800BBEE48 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		054947B1294E059C005ED3CA /* iOS-1-Final-Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-1-Final-Exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054947B4294E059C005ED3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054947B6294E059C005ED3CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		054947B8294E059C005ED3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		054947B8294E059C005ED3CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		054947BB294E059C005ED3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		054947BD294E059C005ED3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054947C0294E059C005ED3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,24 @@
 		054947D1294E059C005ED3CA /* iOS-1-Final-ExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-1-Final-ExamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054947D5294E059C005ED3CA /* iOS_1_Final_ExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_1_Final_ExamUITests.swift; sourceTree = "<group>"; };
 		054947D7294E059C005ED3CA /* iOS_1_Final_ExamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_1_Final_ExamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		054947E4294E2129005ED3CA /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		054947E6294E2ECB005ED3CA /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		054947E8294E2EE6005ED3CA /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		054947EA294E2EF5005ED3CA /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		054947EC294E2F04005ED3CA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		05A0F338294EEF5D009E32FA /* iOS-1-Final-Exam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-1-Final-Exam.entitlements"; sourceTree = "<group>"; };
+		05A0F339294F7FB5009E32FA /* NewReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderViewController.swift; sourceTree = "<group>"; };
+		05A0F33B294F8191009E32FA /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		05A0F33C294F8191009E32FA /* ReminderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderTableViewCell.xib; sourceTree = "<group>"; };
+		05A0F33F294F8B5C009E32FA /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		05A0F341294F968B009E32FA /* NewAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAmountViewController.swift; sourceTree = "<group>"; };
+		05A0F343294F974F009E32FA /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		05A0F345294F9857009E32FA /* FinanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTableViewCell.swift; sourceTree = "<group>"; };
+		05A0F346294F9857009E32FA /* FinanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceTableViewCell.xib; sourceTree = "<group>"; };
+		05A0F349294FA995009E32FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0757AA28A68265C9ED245162 /* Pods-iOS-1-Final-Exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-1-Final-Exam.release.xcconfig"; path = "Target Support Files/Pods-iOS-1-Final-Exam/Pods-iOS-1-Final-Exam.release.xcconfig"; sourceTree = "<group>"; };
+		185B895C2322D8DB4985D320 /* Pods-iOS-1-Final-Exam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-1-Final-Exam.debug.xcconfig"; path = "Target Support Files/Pods-iOS-1-Final-Exam/Pods-iOS-1-Final-Exam.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA7A0D70AB9E7758440CC49 /* Pods_iOS_1_Final_Exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_1_Final_Exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F981883DB1E82A2898E0093A /* Pods_iOS_1_Final_Exam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +121,8 @@
 				054947CA294E059C005ED3CA /* iOS-1-Final-ExamTests */,
 				054947D4294E059C005ED3CA /* iOS-1-Final-ExamUITests */,
 				054947B2294E059C005ED3CA /* Products */,
+				53AF6C1ECFE7E6C4D9121FE9 /* Pods */,
+				2EA44D840DD7A556FB933AAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +139,30 @@
 		054947B3294E059C005ED3CA /* iOS-1-Final-Exam */ = {
 			isa = PBXGroup;
 			children = (
+				05A0F338294EEF5D009E32FA /* iOS-1-Final-Exam.entitlements */,
 				054947B4294E059C005ED3CA /* AppDelegate.swift */,
 				054947B6294E059C005ED3CA /* SceneDelegate.swift */,
-				054947B8294E059C005ED3CA /* ViewController.swift */,
+				054947B8294E059C005ED3CA /* LoginViewController.swift */,
+				054947E4294E2129005ED3CA /* SignupViewController.swift */,
+				054947E8294E2EE6005ED3CA /* CalenderViewController.swift */,
+				051FBEAD294E6B4800BBEE48 /* CalenderCollectionViewCell.swift */,
+				054947E6294E2ECB005ED3CA /* ToDoViewController.swift */,
+				05A0F339294F7FB5009E32FA /* NewReminderViewController.swift */,
+				054947EA294E2EF5005ED3CA /* FinanceViewController.swift */,
+				05A0F341294F968B009E32FA /* NewAmountViewController.swift */,
+				054947EC294E2F04005ED3CA /* SettingsViewController.swift */,
 				054947BA294E059C005ED3CA /* Main.storyboard */,
 				054947BD294E059C005ED3CA /* Assets.xcassets */,
 				054947BF294E059C005ED3CA /* LaunchScreen.storyboard */,
 				054947C2294E059C005ED3CA /* Info.plist */,
+				05A0F349294FA995009E32FA /* GoogleService-Info.plist */,
+				051FBEAF294E6EC800BBEE48 /* CalendarHelper.swift */,
+				05A0F33F294F8B5C009E32FA /* Reminder.swift */,
+				05A0F343294F974F009E32FA /* Amount.swift */,
+				05A0F33B294F8191009E32FA /* ReminderTableViewCell.swift */,
+				05A0F33C294F8191009E32FA /* ReminderTableViewCell.xib */,
+				05A0F345294F9857009E32FA /* FinanceTableViewCell.swift */,
+				05A0F346294F9857009E32FA /* FinanceTableViewCell.xib */,
 			);
 			path = "iOS-1-Final-Exam";
 			sourceTree = "<group>";
@@ -127,6 +184,23 @@
 			path = "iOS-1-Final-ExamUITests";
 			sourceTree = "<group>";
 		};
+		2EA44D840DD7A556FB933AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7A0D70AB9E7758440CC49 /* Pods_iOS_1_Final_Exam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53AF6C1ECFE7E6C4D9121FE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				185B895C2322D8DB4985D320 /* Pods-iOS-1-Final-Exam.debug.xcconfig */,
+				0757AA28A68265C9ED245162 /* Pods-iOS-1-Final-Exam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054947DB294E059C005ED3CA /* Build configuration list for PBXNativeTarget "iOS-1-Final-Exam" */;
 			buildPhases = (
+				1388E98E083DF4497993BC93 /* [CP] Check Pods Manifest.lock */,
 				054947AD294E059C005ED3CA /* Sources */,
 				054947AE294E059C005ED3CA /* Frameworks */,
 				054947AF294E059C005ED3CA /* Resources */,
+				71FEFD0361FD79ABE995C977 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				054947C1294E059C005ED3CA /* LaunchScreen.storyboard in Resources */,
+				05A0F348294F9857009E32FA /* FinanceTableViewCell.xib in Resources */,
 				054947BE294E059C005ED3CA /* Assets.xcassets in Resources */,
 				054947BC294E059C005ED3CA /* Main.storyboard in Resources */,
+				05A0F33E294F8191009E32FA /* ReminderTableViewCell.xib in Resources */,
+				05A0F34A294FA995009E32FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +332,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1388E98E083DF4497993BC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-1-Final-Exam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71FEFD0361FD79ABE995C977 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-1-Final-Exam/Pods-iOS-1-Final-Exam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-1-Final-Exam/Pods-iOS-1-Final-Exam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-1-Final-Exam/Pods-iOS-1-Final-Exam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		054947AD294E059C005ED3CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054947B9294E059C005ED3CA /* ViewController.swift in Sources */,
+				054947E9294E2EE6005ED3CA /* CalenderViewController.swift in Sources */,
+				054947E7294E2ECB005ED3CA /* ToDoViewController.swift in Sources */,
+				054947B9294E059C005ED3CA /* LoginViewController.swift in Sources */,
 				054947B5294E059C005ED3CA /* AppDelegate.swift in Sources */,
+				054947E5294E2129005ED3CA /* SignupViewController.swift in Sources */,
+				05A0F344294F974F009E32FA /* Amount.swift in Sources */,
+				051FBEB0294E6EC800BBEE48 /* CalendarHelper.swift in Sources */,
+				054947EB294E2EF5005ED3CA /* FinanceViewController.swift in Sources */,
+				05A0F342294F968B009E32FA /* NewAmountViewController.swift in Sources */,
+				05A0F33D294F8191009E32FA /* ReminderTableViewCell.swift in Sources */,
+				051FBEAE294E6B4800BBEE48 /* CalenderCollectionViewCell.swift in Sources */,
+				05A0F340294F8B5C009E32FA /* Reminder.swift in Sources */,
+				05A0F347294F9857009E32FA /* FinanceTableViewCell.swift in Sources */,
 				054947B7294E059C005ED3CA /* SceneDelegate.swift in Sources */,
+				05A0F33A294F7FB5009E32FA /* NewReminderViewController.swift in Sources */,
+				054947ED294E2F04005ED3CA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +566,11 @@
 		};
 		054947DC294E059C005ED3CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185B895C2322D8DB4985D320 /* Pods-iOS-1-Final-Exam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS-1-Final-Exam/iOS-1-Final-Exam.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DGD23WNNP8;
@@ -445,6 +581,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,9 +597,11 @@
 		};
 		054947DD294E059C005ED3CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0757AA28A68265C9ED245162 /* Pods-iOS-1-Final-Exam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS-1-Final-Exam/iOS-1-Final-Exam.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DGD23WNNP8;
@@ -473,6 +612,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
